@@ -1,0 +1,34 @@
+*.db
+customer performance/inventory.db
+cat > .gitignore << 'EOF'
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+env/
+ENV/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.vscode/
+.idea/
+
+# databases / big local files
+*.db
+*.sqlite
+*.sqlite3
+
+# ML / DS heavy artifacts
+*.parquet
+*.pbix
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+*.zip
+
+# optional: local notebook junk
+*.tmp
+EOF
